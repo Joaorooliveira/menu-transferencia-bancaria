@@ -52,7 +52,7 @@ public class Main {
                     variavelSuporte = leitura.nextDouble();
                     System.out.println(variavelSuporte);
                     if(variavelSuporte<=saldoAtualizado) {
-                        saldoAtualizado = saldoAtualizado-variavelSuporte;
+                        saldoAtualizado -= variavelSuporte;
                         System.out.println("Saldo atualizado R$ " + saldoAtualizado);
                     }else{
                         System.out.println("Nao ha saldo suficiente para fazer essa transferencia.");
